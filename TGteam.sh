@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/BDReborn
+cd $HOME/TG
 
 install() {
 	    cd libs
@@ -36,7 +36,7 @@ install() {
 	echo -e "\e[0m"
 }
 
-function beyondteam() {
+function TGteam() {
 	echo -e "\e[0m"
 	green "     >>>>                       We Are Not Attacker                             "
 	green "     >>>>                       We Are Not Alliance                             "
@@ -62,12 +62,12 @@ update() {
 
 if [ "$1" = "install" ]; then
 	print_logo
-	beyondteam
+	
 	logo_play
 	install
 elif [ "$1" = "update" ]; then
 	logo_play
-	beyondteam
+	
 	update
 else
 if [ ! -f ./libs/tgcli ]; then
@@ -76,7 +76,7 @@ if [ ! -f ./libs/tgcli ]; then
     exit 1
 fi
 	print_logo
-	beyondteam
+	TGteam
 	logo_play
 	#sudo service redis-server restart
 	./libs/tgcli -s ./bot/bot.lua $@
