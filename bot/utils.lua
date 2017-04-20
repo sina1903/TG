@@ -1,4 +1,4 @@
---Begin Utils.lua By #BeyondTeam :)
+--Begin Utils.lua By #TG_plus :)
 function serialize_to_file(data, file, uglify)
   file = io.open(file, 'w+')
   local serialized
@@ -71,7 +71,7 @@ end
 --  Saves file to /tmp/. If file_name isn't provided,
 -- will get the text after the last "/" for filename
 -- do ski
-BDRpm = '\n@BeyondTeam'
+BDRpm = '\n@TG_plus'
 -- Waiting for ski:)
 -- and content-type for extension
 function download_to_file(url, file_name)
