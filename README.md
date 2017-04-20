@@ -22,9 +22,9 @@
 cd $HOME
 git clone https://github.com/sina1903/TG.git
 cd TG
-chmod +x beyond.sh
-./beyond.sh install
-./beyond.sh 
+chmod +x TGteam.sh
+./TGteam.sh install
+./TGteam.sh 
 # Enter a phone number & confirmation code.
 
 # For Auto Launch:
@@ -34,11 +34,11 @@ screen ./autobd.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone git clone https://github.com/sina1903/TG.git && cd BDReborn && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone git clone https://github.com/sina1903/TG.git && cd TG && chmod +x TGteam.sh && ./TGteam.sh install && ./TGteam.sh
 
 OR
 
-cd $HOME && git clone https://github.com/sina1903/TG.git && cd BDReborn && chmod +x beyond.sh && ./beyond.sh install && chmod 777 autobd.sh && screen ./autobd.sh
+cd $HOME && git clone https://github.com/sina1903/TG.git && cd TG && chmod +x TGteam.sh && ./TGteam.sh install && chmod 777 autobd.sh && screen ./autobd.sh
 ```
 
 * * *
