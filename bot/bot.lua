@@ -1,5 +1,5 @@
--- #Beyond Reborn Robot
--- #@BeyondTeam
+-- #TGteam Robot
+-- #@TG_plus
 
 tdcli = dofile('./libs/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -89,15 +89,7 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》》TGplus 
-
-》https://github.com/sina1903/TG
-
-》creator :
-》@MR_me_ir ➣ 
-
-》channel :
-》 @TG_plus 《
+    info_text = [[》》TGplus \n\n》https://github.com/sina1903/TG\n\n》creator :\n》@MR_me_ir ➣ \n\n》channel :\n》 @TG_plus 《\n"
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
