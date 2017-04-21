@@ -49,7 +49,7 @@ cd $HOME && git clone https://github.com/sina1903/TG.git && cd TG && chmod +x TG
 
 # Developers!
 
-[MR.me]([(https://telegram.me/mr_me_ir)
+[MR.me](https://telegram.me/mr_me_ir)
  
 
 ### Our Telegram channel:
