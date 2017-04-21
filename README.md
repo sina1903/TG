@@ -42,12 +42,15 @@ cd $HOME && git clone https://github.com/sina1903/TG.git && cd TG && chmod +x TG
 ```
 
 * * *
+فعال  کردن پلاگین دستورات
+!pl + help
+در پیوی ربات بزنید
 * * *
 
 # Developers!
 
-[MR.me]([Telegram](https://telegram.me/mr_me_ir))
-
+[MR.me]([(https://telegram.me/mr_me_ir)
+ 
 
 ### Our Telegram channel:
 
