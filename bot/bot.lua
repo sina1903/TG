@@ -76,7 +76,7 @@ function create_config( )
 	config = {
     enabled_plugins = {
 		"banhammer",
-		"groupmanager",
+		"supergroup",
 		"msg-checks",
 		"plugins",
 		"tools",
